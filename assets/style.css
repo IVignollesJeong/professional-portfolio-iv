@@ -1,0 +1,29 @@
+* {
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: aqua;
+    color:black;
+}
+
+nav ul {
+    display: flex;
+}
+
+body {
+    background-color: bisque;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    background-color: aqua;
+    color: black;
+  }
+
+  /* media queries */
