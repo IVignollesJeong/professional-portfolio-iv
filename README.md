@@ -14,7 +14,7 @@ This project called for the creation of a professional portfolio page for potent
 
 N/A, the webpage can be reached through the URL found inside the "Usage" section.
 
-Source code for the portfolio page can be found here: [HTML](https://github.com/IVignollesJeong/weekly-challenge-1/blob/main/index.html) [CSS](https://github.com/IVignollesJeong/weekly-challenge-1/blob/main/assets/css/style.css).
+Source code for the portfolio page can be found here: [HTML](https://github.com/IVignollesJeong/professional-portfolio-iv/blob/main/index.htm) [CSS-style/reset/img](https://github.com/IVignollesJeong/professional-portfolio-iv/tree/main/assets).
 
 ## Usage
 
