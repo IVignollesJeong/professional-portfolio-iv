@@ -4,9 +4,9 @@
   
   /* brand color palette */
   :root {
-    --primary: rgba(68, 88, 119, 1);
-    --secondary: rgba(146, 204, 206, 1);
-    --tertiary: rgba(49, 52, 61, 1);
+    --primary: rgb(47, 119, 119);
+    --secondary: rgb(240, 183, 151);
+    --tertiary: rgb(66, 66, 66);
     --dark: rgba(28, 29, 33, 1);
     --light: rgba(238, 238, 247, 1);
   }
@@ -48,7 +48,6 @@
     color: var(--tertiary);
     background-color: var(--secondary);
     padding: 5px 5px;
-    border-radius: 10%;
     margin: 0;
     font-size: 4vw;
     line-height: 1;
@@ -67,7 +66,7 @@
   }
   
   .hero-banner {
-    background: rgb(68, 88, 120);
+    background: grey;
     background-image: url(../assets/img/banner.png), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
     background-size: contain;
     background-position: center;
@@ -93,7 +92,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: stretch;
+    align-items: normal;
     justify-content: space-between;
   }
   
@@ -152,32 +151,50 @@
   .card {
     display: flex;
     flex-wrap: nowrap;
-    border-style: solid;
-    border-color: orchid;
-    border-radius: 1rem;
-    width: 25%;
+    
+    width: 50%;
     float: left;
   }
 
   img {
-    max-width: 100%;
+    display: flex;
+    flex: 0 50px 100px;
+    max-width: 85%;
     height: auto;
   }
 
-  #about-me {
+  #card1 {
+    order: 1;
+    width: 100%;
+    justify-content: center;
+  }
 
+  #about-me {
+    color: grey;
   }
 
   #apps {
-
+    color: grey;
   }
 
   #contact {
-
+    color: grey;
   }
 
   @media screen and (max-width: 1600px) {
     .column {
       width: 150%;
+    
+    }
+    .card {
+      flex-shrink: 100px;
+    }
+
+    #card1 {
+      justify-content: start;
+    }
+
+    img {
+      flex-shrink: 100px;
     }
   }
