@@ -27,10 +27,11 @@ Source code information can be found in the above "installation" section.
 
 ## Credits
 
-[Alt text guidelines](https://blog.hubspot.com/marketing/image-alt-text) </br>
-[Additional alt text information](https://www.hmc.edu/communications/accessibility-resources/alt-decision-tree-alternative-text-guide/) </br>
-[CSS selector consolidation guide](https://www.w3schools.com/css/css_selectors.asp#:~:text=To%20group%20selectors%2C%20separate%20each%20selector%20with%20a%20comma.) </br>
-[Logical HTML styling](https://www.yourhtmlsource.com/accessibility/logicalstyle.html)
+[Element Hover Help](https://www.w3schools.com/cssref/sel_hover.php) </br>
+[Download Link Guide](https://www.w3schools.com/howto/howto_html_download_link.asp) </br>
+[PNG Resizer](https://onlinepngtools.com/resize-png) </br>
+[Background Image Styling Guide](https://www.w3schools.com/jsref/prop_style_backgroundimage.asp)
+Starter code - OSU Bootcamp Slack
 
 ## License
 
