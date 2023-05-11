@@ -2,7 +2,6 @@
     box-sizing: border-box;
   }
   
-  /* brand color palette */
   :root {
     --primary: rgb(47, 119, 119);
     --secondary: rgb(240, 183, 151);
@@ -141,17 +140,20 @@
     color: var(--secondary);
   }
 
+  .card a:hover {
+    background-color: var(--secondary);
+    background-position: 5% 5%;
+  }
+
   .column {
     float:left;
     width: 25%;
     padding: 0 10px;
-
   }
   
   .card {
     display: flex;
     flex-wrap: nowrap;
-    
     width: 50%;
     float: left;
   }
@@ -163,23 +165,18 @@
     height: auto;
   }
 
+  
+  /* main application */
   #card1 {
     order: 1;
     width: 100%;
     justify-content: center;
   }
 
-  #about-me {
+  #about-me, #apps, #contact {
     color: grey;
   }
 
-  #apps {
-    color: grey;
-  }
-
-  #contact {
-    color: grey;
-  }
 
   @media screen and (max-width: 1600px) {
     .column {
