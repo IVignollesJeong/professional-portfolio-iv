@@ -18,7 +18,8 @@ Source code for the portfolio page can be found here: [HTML](https://github.com/
 
 ## Usage
 
-![Desktop Screenshot 2023 05 03 - 16 31 00 53](https://user-images.githubusercontent.com/131202032/236045033-3eb0d2a7-6de2-45d3-94d7-4bb3a3eab030.png)
+![Desktop Screenshot 2023 05 11 - 11 25 08 95] (https://github.com/IVignollesJeong/professional-portfolio-iv/assets/131202032/2e9f9c81-b7e8-4126-a177-f942b214644c)
+
 
 [The portfolio page can be reached here](https://ivignollesjeong.github.io/weekly-challenge-1/)
 
