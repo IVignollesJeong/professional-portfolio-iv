@@ -167,16 +167,35 @@
 
   
   /* main application */
+
+  .card {
+    justify-content: center;
+    align-items: center;
+  }
+
   #card1 {
     order: 1;
     width: 100%;
+    max-width: 150%;
     justify-content: center;
+    align-items: center;
   }
+
 
   #about-me, #apps, #contact {
     color: grey;
   }
 
+  #apphead {
+    padding: 15px 6% 15px 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: var(--tertiary);
+    box-shadow: 0 5px 35px rgba(146, 204, 206, 0.4);
+  }
 
   @media screen and (max-width: 1600px) {
     .column {
@@ -193,5 +212,9 @@
 
     img {
       flex-shrink: 100px;
+    }
+    
+    #apphead {
+      transform: scale(0.8);
     }
   }
