@@ -6,30 +6,164 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Ian Vignolles-Jeong | Professional Web Developer</title>
-  <link rel="stylesheet" href="./assets/reset.css" />
-  <link rel="stylesheet" href="./assets/style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
 </head>
 
 <body>
-  <!-- Name logo, Nav including links to page sections + resume -->
-  <header>
-    <h1>Ian Vignolles-Jeong</h1>
-    <nav>
-      <a href="#about-me">About Me</a>
-      <a href="#apps">Apps</a>
-      <a href="#contact">Contact Me</a>
-      <a href="assets\img\R1.png" download="R1">Resume</a>
-    </nav>
-  </header>
+  
+  <!-- </header> -->
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+    <a class="navbar-brand" href="#">Ian Vignolles-Jeong</a>
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#about-me">About Me</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#apps">Apps</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Contact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="assets/img/R1.png" target="_blank" download="R1">Resume</a>
+      </li>
+    </ul>
+    </div>
+  </nav>
 
   <!-- hero banner image -->
-  <section class="hero-banner">
-  </section>
+  <!-- <div class="card mb-3">
+    <div class="card-body text-center" id="hero-banner">
+      <section class="hero-banner">
+        <img src="./assets/img/banner.png" alt="hero-banner">
+      </section>
+    </div>
+  </div> -->
+
+  <div class="card mb-3">
+    <div class="card-body text-center" id="about-me">
+      <h2>About Me:</h2>
+      <p>Welcome to the Ian Vignolles-Jeong's professional portfolio! As an aspiring web app developer, it brings me
+        great joy creating new applications and having the opportunity to showcase them here! Below are a few examples
+        of my work. More applications will be displayed on this page as time progresses, with varying uses and designs!
+      </p> </br>
+      <p>My coding experience includes HTML, CSS, JavaScript, Node.js, and SQL. As a student currently enrolled in the
+        Ohio State University Web App Development Bootcamp, I intend to become adept in these languages as well as branch out to other languages. As these skills are attained and more applications are deployed, this webpage will be updated
+        with applications that reflect these new skills!</p>
+    </div>
+  </div>
+
+
+  <div class="container-lg">
+    <div class="card mb-3" id="apps">
+      <img src="./assets/img/maryze.png" class="card-img-top" alt="Maryze" />
+      <div class="card-body text-center">
+        <h5 class="card-title">Maryze: A CV-generating Website</h5>
+        <p class="card-text">
+          Maryze is a website where users can create, edit, store and manage custom generated CV's for job applications
+        </p>
+        <p class="card-text">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container text-center">
+    <div class="row">
+      <div class="col">
+        <div class="card mb-3 text-white bg-dark">
+          <a href="https://ronin1702.github.io/krapyak/" target="_blank">
+            <img src="./assets/img/Screenshot (5).png" class="card-img-top" alt="Krapyak" />
+          </a>
+          <div class="card-body text-center">
+            <a href="https://ronin1702.github.io/krapyak/" target="_blank">
+              <h5 class="card-title">Krapyak: Your Destination's Nightmare</h5>
+            </a>
+            <p class="card-text">
+              Krapyak is a website where users can discover the WORST establishments in a given location. Utilizes Yelp
+              Fusion/Google API's to retrieve business and location data.
+            </p>
+            <p class="card-text">
+              <small class="text-muted">
+                <a href="https://github.com/Ronin1702/krapyak" target="_blank">GitHub Repo</a>
+              </small>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-3 text-white bg-dark">
+          <a href="https://github.com/IVignollesJeong/SQL-employee-tracker" target="_blank">
+            <img src="./assets/img/node.png" class="card-img-top" alt="Node.js applications" />
+          </a>
+          <div class="card-body text-center">
+            <a href="https://github.com/IVignollesJeong/SQL-employee-tracker" target="_blank">
+              <h5 class="card-title">Node.js/MySQL Employee Tracker</h5>
+            </a>
+            <p class="card-text">
+              This is a CLI program that allows users to manage an employee database using Inquirer prompts to access
+              and manage MySQL employee databases.
+            </p>
+            <p class="card-text">
+              <small class="text-muted">
+                <a href="https://github.com/IVignollesJeong/SQL-employee-tracker" target="_blank">GitHub Repo</a>
+              </small>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-3 text-white bg-dark">
+          <a href="https://ivignollesjeong.github.io/password-generator/" target="_blank">
+            <img src="./assets/img/JavaScript---Thumbnail-1200-x-630.png" class="card-img-top"
+              alt="JavaScript password-generator" />
+          </a>
+          <div class="card-body text-center">
+            <a href="https://ivignollesjeong.github.io/password-generator/" target="_blank">
+              <h5 class="card-title">JavaScript Simple Password Generator</h5>
+            </a>
+            <p class="card-text">
+              This is a simple web app that utilizes JavaScript and browser alerts to quickly generate unique passwords.
+            </p>
+            <p class="card-text">
+              <small class="text-muted">
+                <a href="https://github.com/IVignollesJeong/password-generator" target="_blank">GitHub Repo</a>
+              </small>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card mb-3">
+    <div class="card-body text-center" id="contact">
+      <h2>Contact Info:</h2>
+      <div>
+        <address>
+          <a href="tel:+18186314466">818.631.4466</a>
+          <a href="mailto:ianvignolles@gmail.com">ianvignolles@gmail.com</a>
+          <a href="https://github.com/IVignollesJeong" target="_blank">GitHub</a>
+        </address>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
 
 
   <!-- MAIN SECTION -->
   <!-- About Me -->
-  <main class="page-wrapper">
+  <!-- <main class="page-wrapper">
+    
     <section class="page-section">
       <h2 id="about-me">About Me</h2>
       <div>
@@ -38,11 +172,40 @@
       </div>
     </section>
 
-    <!-- Applications section -->
+    Applications section
     <section class="page-section">
+      
       <h2 id="apps">Apps</h2>
       <div class="column">
-        <div class="card" id="card1">
+
+        <div class="card bg-dark text-white">
+          <img class="card-img" src="..." alt="Card image">
+          <div class="card-img-overlay">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text">Last updated 3 mins ago</p>
+          </div>
+        </div>
+
+        <div class="card bg-dark text-white">
+          <img class="card-img" src="..." alt="Card image">
+          <div class="card-img-overlay">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text">Last updated 3 mins ago</p>
+          </div>
+        </div>
+
+        <div class="card bg-dark text-white">
+          <img class="card-img" src="..." alt="Card image">
+          <div class="card-img-overlay">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text">Last updated 3 mins ago</p>
+          </div>
+        </div>
+
+         <div class="card" id="card1">
           <header id="apphead">Krapyak: Your Destination's Nightmares - JS/CSS/HTML</header>
           <a href="https://ronin1702.github.io/krapyak/" target="_blank"><img src="./assets/img/Screenshot (5).png" alt="Krapyak Project"/></a>
         </div>
@@ -55,11 +218,11 @@
         <div class="card">
           <header id="apphead">Prework Study Guide - HTML/CSS</header>
           <a href="https://ivignollesjeong.github.io/prework-study-guide/" target="_blank"><img src="./assets/img/prework.png" alt="Prework study guide" /></a>
-        </div>
+        </div> 
        </div>
     </section>
     
-    <!-- Contact Section -->
+     Contact Section
     <section class="page-section contact" id="contact">
       <h2 id="contact">Contact Me</h2>
       <div>
@@ -70,7 +233,18 @@
         </address>
       </div>
     </section>
-  </main>
+  </main> -->
+
+  <footer class="text-center text-lg-start text-white" style="background-color: #3e4551">
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+      2023 Ian Vignolles-Jeong
+      <a class="text-white" href="https://github.com/IVignollesJeong">Github Profile Link</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
